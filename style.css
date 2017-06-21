@@ -1,0 +1,212 @@
+html {
+  background-color: #ffffff;
+}
+
+p
+{
+  margin: 20px auto;
+  padding: 0px;
+  text-align: left;
+  border: 0px solid red;
+}
+
+.centered
+{
+width: 80%;
+margin: 0 auto;
+
+}
+
+header
+{
+  padding: 0%;
+  display: block;
+  position: fixed;
+  width: 100%;
+  background: green;
+}
+
+ul {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo {
+  float: right;
+}
+
+h1
+{
+  font-family:'Rubik', sans-serif;
+  font-weight: 400, normal;
+  font-size: 40px;
+  text-align: left;
+  padding: 1%;
+
+}
+
+h1.bold
+{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500; /* when I type bold after this, it switches off?? */
+}
+
+
+h2
+{
+  font-family:'Rubik', sans-serif;
+  font-weight: 300, normal;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: left;
+  padding: 1%;
+  color: #6a6a6a;
+}
+
+h3
+{
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 120%;
+  text-align: left;
+  padding: 1%;
+}
+
+h4
+{
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 120%;
+  text-align: left;
+  padding: 1%;
+}
+
+img
+{
+  width: 100%;
+  padding: 0%;
+  display: block;
+  margin: 0px auto;
+}
+
+.back_gray
+{
+  background-color: #eaeaea;
+}
+
+.button
+{
+  font-family:'Rubik', sans-serif;
+  font-weight: 400, normal;
+  font-size: 18px;
+  padding: 10px;
+  margin: 0px auto;
+}
+
+.title
+{
+  position: absolute;
+background-color: none;
+padding: 20px;
+top: 60%;
+left: 15%;
+width: 33%;
+  padding: 2px;
+  margin: 0px 0px 0px 0px;
+    text-align: left;
+}
+
+.positioning
+{
+  position: relative;
+  top: -10px;
+  left: 0;
+}
+
+.column
+{
+  float: left;
+  width: 46%;
+  margin: 2%;
+}
+
+.headfix
+{
+  position: fixed;
+  top: -30px;
+  left: 200px;
+}
+
+.float
+{
+  float: left;
+  width: 40%
+  padding: 0%;
+  margin: 0px 20px 10px 0px;
+}
+
+#image
+{
+  width: 20%;
+  padding: 1%;
+  display: block;
+  margin: 0px auto;
+}
+
+.subscribe
+{
+  position: fixed;
+background-color: gray;
+padding: 20px;
+top: 10%;
+left: 33%;
+width: 33%;
+}
+
+.button
+{
+  width: 10%;
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+}
+
+.border
+{
+  border-style: solid;
+  border-width: medium;
+  width: 100%;
+  margin: 35px 0px 15px 0px;
+}
+
+.image-small
+{
+  width: 200px;
+}
+
+@media (max-width: 800px){
+
+  .positioning
+  {
+    position: static;
+  }
+
+  img
+  {
+    width: 100%;
+  }
+
+h1
+{
+  font-size: 24px;
+}
+
+
+h2
+{
+    font-size: 90%;
+}
+
+}
